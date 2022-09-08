@@ -1,0 +1,57 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#content{
+    left: 25px;
+    width: 940px;
+    margin-top: 40px;
+    margin-left: 25px;
+    background-color: white;
+    border-style: none
+}
+.contentDiv p{
+    background-color: lightcyan;
+    text-align: center;
+    outline-style: solid;
+    position: realtive;
+    line-height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.images{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    margin-bottom: 15px;
+}
+.button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 25px;
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.images img{
+    height: 320px;
+    width: auto;
+}
+#img1{
+    margin-bottom: 5px;
+}
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    box-shadow: inset 500px 0 0 0 #54b3d6;
+    color: white;
+  }
